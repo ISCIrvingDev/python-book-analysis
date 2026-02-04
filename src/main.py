@@ -174,4 +174,6 @@ with gr.Blocks(theme = gr.themes.Ocean()) as dashboard:
 
 
 if __name__ == "__main__":
-    dashboard.launch()
+    # Se especifica la IP y Puerto para que no haya temas en el deploy
+    dashboard.launch(server_name="127.0.0.1", server_port=7860)
+    # dashboard.launch()
