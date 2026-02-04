@@ -1,0 +1,9 @@
+# Datos vectoriales
+datasets/chroma_db
+# datasets/4_books_with_emotion_scores.csv
+datasets/book_with_categories.csv
+datasets/books_cleaned.csv
+# datasets/tagged_description.txt
+
+# Notebooks
+notebooks/

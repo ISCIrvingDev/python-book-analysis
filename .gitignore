@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.exe
+*.so
+*.dylib
+*.egg-info/
+dist/
+build/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Gradio
+/models/
+/session_data/
+/gradio/
+/cache/
+/uploads/
+/static/
+
+# Logs y sensibles
+logs/
+*.log
+.env
+.env.*
+.env*.*
+*.sqlite
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ref
+ref/
