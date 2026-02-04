@@ -1,0 +1,23 @@
+# UI
+gradio==6.5.1
+
+# LangChain stack
+langchain-community
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface==1.2.0
+
+# HuggingFace (compatible con langchain-hf)
+huggingface_hub<1.0.0
+sentence-transformers>=2.2.2
+
+# Vector DB
+chromadb>=0.4.22
+
+# ML core
+torch>=2.0.0
+numpy
+pandas
+
+# Utils
+python-dotenv
