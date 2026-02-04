@@ -172,8 +172,18 @@ with gr.Blocks(theme = gr.themes.Ocean()) as dashboard:
         outputs = output
     )
 
+    gr.HTML(
+        """
+        <div style="text-align: center; padding: 20px; position: fixed; bottom: 2rem; width: 100%; left: 0;">
+            <p>A Machine Learning project with Data Analysis, Vector Search, Text Classification and Sentiment Analysis</p>
+            <p>Developed by <a href="https://ivin-dev.com/#about" target="_blank">Ivin Dev</a></p>
+        </div>
+        """
+    )
+
 
 if __name__ == "__main__":
     # Se especifica la IP y Puerto para que no haya temas en el deploy
-    dashboard.launch(server_name="127.0.0.1", server_port=7860)
+    # Tiene que ser con "0.0.0.0", no con "127.0.0.1" para que funcione con Docker
+    dashboard.launch(server_name="0.0.0.0", server_port=7860)
     # dashboard.launch()
